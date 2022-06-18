@@ -23,6 +23,7 @@ jobs:
           script: |
             cd simple-reactjs-app
             git pull
+            ls -lah
             npm install
             npm run build
             pm2 restart reactapp
